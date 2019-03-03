@@ -40,9 +40,6 @@ lib/libdpmframework.so
 lib/libdpmtcm.so
 -priv-app/dpmserviceapp/dpmserviceapp.apk
 
-# Display postprocessing
-lib64/vendor.display.color@1.0.so
-
 # IMS
 -app/uceShimService/uceShimService.apk
 etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
@@ -144,9 +141,6 @@ framework/qcrilhook.jar
 framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-
-# SDM
-lib64/libsdm-disp-apis.so
 
 # Soter
 -app/SoterService/SoterService.apk

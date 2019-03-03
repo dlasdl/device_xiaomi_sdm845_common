@@ -82,10 +82,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sdm845
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml \
@@ -133,6 +129,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
+<<<<<<< HEAD
 # ThermalController app
 PRODUCT_PACKAGES += \
     ThermalController
@@ -141,6 +138,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Dirac
 
+=======
+>>>>>>> df8bf03... sdm845-common: strip tree of livedisplay, trust stuff
 # VNDK-SP
 PRODUCT_PACKAGES += \
     vndk-sp
