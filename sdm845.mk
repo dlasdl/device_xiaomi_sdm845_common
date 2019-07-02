@@ -134,6 +134,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ThermalController
 
+# Dirac
+PRODUCT_PACKAGES += \
+    Dirac
+
 # VNDK-SP
 PRODUCT_PACKAGES += \
     vndk-sp
